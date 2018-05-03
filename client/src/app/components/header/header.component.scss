@@ -1,0 +1,23 @@
+@import '../../../assets/styles/variables';
+@import '../../../assets/styles/mixins';
+
+.navbar {
+  background: $main-color;
+  @include border-radius(0);
+  display: flex;
+
+  .container {
+    display: flex;
+
+    .row {
+      margin: auto 0;
+
+      .logo {
+        color: $text-color;
+        font-size: 1.25em;
+        letter-spacing: 0.8px;
+        @include user-select(none);
+      }
+    }
+  }
+}

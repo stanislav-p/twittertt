@@ -1,0 +1,20 @@
+@mixin transition($method, $duration) {
+  -webkit-transition: $method, $duration;
+  -moz-transition: $method, $duration;
+  -ms-transition: $method, $duration;
+  -o-transition: $method, $duration;
+  transition: $method, $duration;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin user-select($value) {
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  -ms-user-select: $value;
+  user-select: $value;
+}
