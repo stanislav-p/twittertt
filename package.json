@@ -10,9 +10,10 @@
   "author": "Stanislav Perepelitsa",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
-    "oauth": "*"
+    "express": "^4.16.3",
+    "oauth": "*",
+    "twitter": "^1.7.1"
   }
 }
